@@ -2,38 +2,22 @@ import React from "react";
 
 function AboutSection() {
   return (
-    <div className=" aboutdiv col md:flex items-center gap-[190px]">
-      <div className="flex picdiv w-fit ">
+    <div id="about"  className=" aboutdiv col md:flex justify-between mt-[60px] items-center">
+      <div className="flex picdiv w-fit  ">
         <div className="">
-          <img
-            className=""
-            src={require("./assets/sept-commercial-Cqu3DdNwtKQ-unsplash 2.png")}
-            alt=""
-          />
-          <img
-            className=" mt-[10px]  sm:mt-[20px]"
-            src={require("./assets/pexels-spora-weddings-13022320 2.png")}
-            alt=""
-          />
+          <div className="pic1 w-[130px] xs:w-[150px] sm:w-[200px] md:w-[250px] h-[200px] sm:h-[250px] md:h-[400px]"></div>
+          <div className="pic2 sm:w-[200px] md:w-[250px] h-[130px] md:h-[200px] mt-[9px] sm:mt-[15px] "></div>
         </div>
-        <div className="">
-          <img
-            className=" ml-[10px]  sm:ml-[20px]"
-            src={require("./assets/pexels-trung-nguyen-9517379 2.png")}
-            alt=""
-          />
-          <img
-            className="  mt-[10px] sm:mt-[20px] ml-[10px] sm:ml-[20px]"
-            src={require("./assets/pexels-spora-weddings-13148410 2.png")}
-            alt=""
-          />
+        <div className=" ml-[9px] sm:ml-[15px]">
+          <div className="pic3 sm:w-[200px] md:w-[250px] h-[130px] md:h-[200px]"></div>
+          <div className="pic4 mt-[9px] sm:mt-[15px] w-[130px] xs:w-[150px] sm:w-[200px] md:w-[250px] h-[200px] sm:h-[250px] md:h-[400px]"></div>
         </div>
       </div>
       <div className="w-fit md:w-[50%] ">
         <div className="textdiv">
           {" "}
           <h1 className="text-[35px] sm:text-[48px] font-[700]">About</h1>
-          <p className=" text-[20px] sm:text-[24px] font-[500] text-gray-600 -mt-[8px]">
+          <p className="text-[20px] sm:text-[24px] font-[500] text-gray-600 -mt-[8px]">
             Our Photography
           </p>
         </div>

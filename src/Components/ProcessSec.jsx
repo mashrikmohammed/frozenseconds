@@ -2,7 +2,7 @@ import React from "react";
 
 function ProcessSec() {
   return (
-    <div className="pb-[30px] pt-[20px] md:pt-[90px]  ">
+    <div id="about" className="pb-[30px] pt-[20px] md:pt-[90px]  ">
       <div className="textdiv">
         <h1 className="text-[35px] sm:text-[48px] font-[700] leading-[45px]">
           Behind the Lens:Our Process
@@ -13,7 +13,7 @@ function ProcessSec() {
       </div>
 
       <div>
-        <div className="col md:flex text-white mt-[50px] justify-between">
+        <div className=" md:flex text-white mt-[50px] justify-between">
           <div className="adiv w-[30%] h-[300px]  pt-[20px] px-[20px] pb-[50px]">
             <h1 className="text-[23px] font-semibold">
               Unforgettable Memories
@@ -55,7 +55,7 @@ function ProcessSec() {
             </div>
           </div>
         </div>
-        <div className="col md:flex text-white mt-[20px] justify-between">
+        <div className=" col md:flex text-white mt-[20px] justify-between">
           <div className="ddiv w-[30%]  h-[300px]  pt-[20px] px-[20px] pb-[50px]">
             <h1 className="text-[23px] font-semibold">Customized Albums </h1>
             <p className="text-[18px]">From Dreams to Reality</p>

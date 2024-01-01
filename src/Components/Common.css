@@ -1,9 +1,6 @@
 .hero-div {
     background-image: url(assets/cover.jpg);
     box-shadow: 10174px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
-    display: flex;
-    flex-direction: column;
-    gap: 280px;
 }
 
 .header {
@@ -17,8 +14,45 @@
     height: 90px;
 }
 
+.nav-item:hover {
+    color: rgb(161, 158, 158);
+}
+
+.nav-item.active {
+    border-bottom: 2px solid white;
+}
+
+.navm {
+    background-color: rgb(32, 31, 31);
+    ;
+}
+
 .header-bg {
     background-color: rgb(32, 31, 31);
+}
+
+.pic1 {
+    background-image: url('./assets/sept-commercial-Cqu3DdNwtKQ-unsplash\ 2.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.pic2 {
+    background-image: url('./assets/pexels-spora-weddings-13022320\ 2.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.pic3 {
+    background-image: url('./assets/pexels-trung-nguyen-9517379\ 2.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.pic4 {
+    background-image: url('./assets/pexels-spora-weddings-13148410\ 2.png');
+    background-position: center;
+    background-size: cover;
 }
 
 .adiv {
@@ -83,17 +117,18 @@
     background-color: #2E2E2E;
 }
 
+.btn:hover {
+    background-color: #000000;
+}
+
 .footer {
     background-color: #2E2E2E;
+
 }
 
 @media (max-width:1470px) {
     .seconddiv {
         padding: 60px;
-    }
-
-    .hero-div {
-        gap: 280px;
     }
 
     .kmdiv {
@@ -115,14 +150,6 @@
 
 @media (max-width:1290px) {
 
-    .hero-div {
-        gap: 300px;
-    }
-
-    .headdiv {
-        margin-top: 300px;
-    }
-
     .adiv,
     .bdiv,
     .cdiv,
@@ -134,15 +161,9 @@
 
 }
 
-
-@media (max-width:1050px) {
-    .hero-div {
-        gap: 160px;
-
-    }
-
-    .headdiv {
-        margin-top: 200px;
+@media (max-width:1030px) {
+    .aboutdiv {
+        gap: 20px;
     }
 }
 
@@ -189,32 +210,8 @@
     }
 }
 
-
-
-@media (max-width:920px) {
-    .hero-div {
-        gap: 340px;
-    }
-}
-
-@media (max-width:900px) {
-    .hero-div {
-        gap: 290px;
-    }
-
-}
-
-@media (max-width:770px) {
-    .hero-div {
-        gap: 220px;
-    }
-
-}
-
 @media (max-width:615px) {
-    .picdiv {
-        padding-right: 9px;
-    }
+
 
     .seconddiv {
         padding: 20px;
@@ -224,7 +221,7 @@
 
 @media (max-width:540px) {
     .hero-div {
-        gap: 100px;
+        background-position-x: -400px;
     }
 
     .textdiv {
@@ -241,15 +238,9 @@
     }
 }
 
-@media (max-width:450px) {
-    .hero-div {
-        gap: 150px;
-    }
-}
-
 @media (max-width:380px) {
     .hero-div {
-        gap: 80px;
+        background-position-x: -330px;
     }
 
     .adiv,
@@ -262,9 +253,11 @@
     }
 }
 
-@media (max-width:300px) {
-    .hero-div {
-        gap: 40px;
+@media (max-width:310px) {
+
+    .pic1,
+    .pic4 {
+        width: 110px;
     }
 
     .adiv,

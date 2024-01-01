@@ -3,7 +3,7 @@ import { MdArrowBackIosNew, MdArrowForwardIos } from "react-icons/md";
 
 function TestimonialSec() {
   return (
-    <div className="testidiv py-[0px] md:py-[60px]  ">
+    <div id="testimonial" className="testidiv py-[0px] md:py-[60px]  ">
       <div className="textdiv">
         <h1 className="text-[35px] sm:text-[48px] font-[700] leading-[45px]">
           Client Testimonials

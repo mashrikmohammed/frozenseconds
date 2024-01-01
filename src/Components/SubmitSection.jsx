@@ -2,23 +2,28 @@ import React from "react";
 
 function SubmitSection() {
   return (
-    <div className="bg-white items-center col md:flex rounded-[15px] px-[10px] sm:px-[20px] justify-around submit py-[50px]">
+    <div id="contact" className="bg-white items-center col md:flex rounded-[15px] px-[10px] sm:px-[20px] justify-around submit py-[50px]">
       <div className="textdiv">
-        <h1 className="text-[35px] sm:text-[48px] font-[700] leading-[45px]">
+        <h1 className="text-[25px] sm:text-[48px] font-[700] leading-[45px]">
           Get in Contact
         </h1>
-        <p className=" text-[20px] sm:text-[24px] font-[500] text-gray-600 mt-[10px]">
+        <p className=" text-[15px] leading-[20px] sm:leading-[35px] sm:text-[24px] font-[500] text-gray-600 mt-[10px]">
           We're Here to Answer Your Questions and <br /> Help You in Any Way We
           Can.
         </p>
         <div className="contact-div">
           <div className="flex gap-2  items-center mt-[40px]">
             <img src={require("./assets/gmail 1.png")} alt="" />{" "}
-            <p className="text-[14px] font-semibold">frozenseconds@gmail.com</p>
+            <p className=" text-[12px] sm:text-[14px] font-semibold">
+              frozenseconds@gmail.com
+            </p>
           </div>
           <div className="flex mt-[5px] sm:mt-[15px] gap-2 items-center m-auto">
             <img src={require("./assets/whatsapp 1.png")} alt="" />{" "}
-            <p className="text-[14px] font-semibold"> +918606112233</p>
+            <p className="text-[12px] sm:text-[14px] font-semibold">
+              {" "}
+              +918606112233
+            </p>
           </div>
         </div>
       </div>
