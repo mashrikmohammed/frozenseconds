@@ -12,49 +12,51 @@ function SubmitSection() {
           Can.
         </p>
         <div className="contact-div">
-          <div className="flex gap-2  items-center mt-[40px]">
-            <img src={require("./assets/gmail 1.png")} alt="" />{" "}
-            <p className=" text-[12px] sm:text-[14px] font-semibold">
+          <div className="flex gap-2   items-center mt-[40px]">
+            <img className="cursor-pointer"  src={require("./assets/gmail 1.png")} alt="" />{" "}
+            <p className=" text-[12px] cursor-pointer sm:text-[14px] font-semibold">
               frozenseconds@gmail.com
             </p>
           </div>
           <div className="flex mt-[5px] sm:mt-[15px] gap-2 items-center m-auto">
-            <img src={require("./assets/whatsapp 1.png")} alt="" />{" "}
-            <p className="text-[12px] sm:text-[14px] font-semibold">
+            <img className="cursor-pointer" src={require("./assets/whatsapp 1.png")} alt="" />{" "}
+            <p className="text-[12px] cursor-pointer sm:text-[14px] font-semibold">
               {" "}
               +918606112233
             </p>
           </div>
         </div>
       </div>
-      <div className="form px-[8px] mt-[40px] md:mt-[0] sm:px-[20px] w-auto md:w-[400px] py-[40px] rounded-md items-center">
+      <div className="form px-[8px] mt-[40px] md:mt-[0] sm:px-[20px] w-auto md:w-[500px] py-[40px] rounded-md items-center">
         <form action="submit" className="text-gray-500">
-          <label className="text-gray-700 text-[14px]" htmlFor="">
+          <label for='name' className="text-gray-700 text-[14px]" htmlFor="">
             Full Name
           </label>
           <br />
-          <input
+          <input id='name'
             className="outline-none w-full p-[6px] rounded-md"
             type="text"
           />
           <br />
-          <label className="text-gray-700 text-[14px]" htmlFor="">
+          <label for='email' className="text-gray-700 text-[14px]" htmlFor="">
+            <div> <br/></div>
             Email Address
           </label>
           <br />
-          <input
+          <input id='email'
             className="outline-none w-full p-[6px] rounded-md"
-            type="text"
+            type="email"
           />
           <br />
-          <label className="text-gray-700 text-[14px]" htmlFor="">
+          <label for='message' className="text-gray-700 text-[14px]" htmlFor="">
+          <div> <br/></div>
             Message
           </label>
           <br />
-          <textarea
-            className="outline-none p-[6px] w-full rounded-md"
+          <textarea 
+            className="outline-none p-[6px] resize-none w-full rounded-md"
             name=""
-            id=""
+            id="message"
             rows="6"
           ></textarea>{" "}
           <br />

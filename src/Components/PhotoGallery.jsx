@@ -11,43 +11,22 @@ function PhotoGallery() {
           Life Through Our Lens
         </p>
       </div>
-      <div className=" columns-2 md:columns-3    bg-white py-[20px] lg:py-[50px] px-[20px] lg:px-[90px] rounded-lg  mt-[30px]">
-        <img src={require("./assets/1.png")} alt="" />
-        <img
-          className="mt-[15px] sm:mt-[25px]"
-          src={require("./assets/2.png")}
-          alt=""
-        />
-        <img
-          className="mt-[15px] sm:mt-[25px]"
-          src={require("./assets/3.png")}
-          alt=""
-        />
-        <img
-          className="mt-[15px] sm:mt-[25px]"
-          src={require("./assets/4.png")}
-          alt=""
-        />
-        <img
-          className="mt-[15px] sm:mt-[25px] "
-          src={require("./assets/5.png")}
-          alt=""
-        />
-        <img
-          className="mt-[15px] sm:mt-[25px]"
-          src={require("./assets/6.png")}
-          alt=""
-        />
-        <img
-          className="mt-[15px] sm:mt-[25px]"
-          src={require("./assets/7.png")}
-          alt=""
-        />
-        <img
-          className="mt-[15px] sm:mt-[25px] "
-          src={require("./assets/8.png")}
-          alt=""
-        />
+      <div className="container py-[30px]">
+        <div className="item img1"></div>
+
+        <div className="item img2"> </div>
+
+        <div className="item img3"></div>
+
+        <div className="item img4"> </div>
+
+        <div className="item img5"> </div>
+
+        <div className="item img6"> </div>
+
+        <div className="item img7"></div>
+
+        <div className="item img8"> </div>
       </div>
     </div>
   );

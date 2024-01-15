@@ -13,9 +13,9 @@ function Footer() {
         </p>{" "}
       </div>
       <div className="flex justify-center gap-3 mt-[30px]">
-        <img src={require("./assets/whatsapp 1.png")} alt="" />
-        <img src={require("./assets/instagram 1.png")} alt="" />
-        <img src={require("./assets/facebook 1.png")} alt="" />
+        <img className="cursor-pointer" src={require("./assets/whatsapp 1.png")} alt="" />
+        <img className="cursor-pointer" src={require("./assets/instagram 1.png")} alt="" />
+        <img className="cursor-pointer" src={require("./assets/facebook 1.png")} alt="" />
       </div>
 
       <p className="text-[12px] text-gray-300 mt-[50px]">
