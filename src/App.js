@@ -4,7 +4,7 @@ import HeroSection from "./Components/Herosection";
 import PhotoGallery from "./Components/PhotoGallery";
 import ProcessSec from "./Components/ProcessSec";
 import SubmitSection from "./Components/SubmitSection";
-import TestimonialSec from "./Components/Testimonial";
+import TestimonialSec from "./Components/Testimonial/Testimonial";
 
 function App() {
   return (
