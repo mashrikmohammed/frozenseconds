@@ -13,7 +13,8 @@ export default function Cards({ author, prof, image, para }) {
         <img src={image} alt="" />
         <div className="author_details_wrapper">
           <p className="author_name">{author}</p>
-          <p className="author_prof">{prof}</p>
+          {prof &&
+          <p className="author_prof">{prof}</p> }
         </div>
       </div>
     </div>

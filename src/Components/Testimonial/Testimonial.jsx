@@ -70,9 +70,9 @@ export default function Testimonials() {
                 <SwiperSlide>
                   <Cards
                     para={items.Testimonial}
-                    image="/assets/testimonials/kavya.jpg"
+                    image={items.avatar}
                     author={items.author}
-                    prof="Film Actress"
+                    prof={items.prof}
                   />
                 </SwiperSlide>
               </div>
