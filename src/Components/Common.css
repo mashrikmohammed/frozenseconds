@@ -12,6 +12,7 @@
     align-items: center;
     padding: 20px 20px;
     height: 90px;
+    z-index: 100;
 }
 
 .nav-item:hover {
