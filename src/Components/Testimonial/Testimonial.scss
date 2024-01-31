@@ -64,14 +64,11 @@
       svg {
         font-size: 2.5rem;
       }
-      .prev {
-        left: 0.5rem;
+      .prev, .next {
+        display: none;
      
       }
-      .next {
-        right: 0.5rem;
-     
-      }
+      
     }
   }
   
@@ -81,12 +78,7 @@
       svg {
         font-size: 2.3rem;
       }
-      .prev {
-        left: 0rem;
-      }
-      .next {
-        right: 0rem;
-      }
+    
     }
   }
   

@@ -42,7 +42,7 @@ export default function Testimonials() {
   };
 
   return (
-    <div id="Testimonial" className="testimonial_container">
+    <div id="testimonial" className="testimonial_container">
       <HeadPara
         head="Client Testimonials"
         para={"Hear from Our Satisfied Customers"}
