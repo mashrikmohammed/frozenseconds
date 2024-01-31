@@ -52,7 +52,7 @@ export default function Testimonials() {
           <GrFormPrevious />
         </Navbuttons>
         <Swiper
-          modules={[Navigation]}
+          modules={[Navigation,Autoplay]}
           spaceBetween={50}
           slidesPerView={3}
           navigation
