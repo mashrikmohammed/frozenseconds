@@ -2,7 +2,7 @@ import React from "react";
 
 function ProcessSec() {
   return (
-    <div id="about" className="pb-[30px] pt-[20px] md:pt-[90px]  ">
+    <div id="about" className="pb-[50px] pt-[20px] md:pt-[90px]  ">
       <div className="textdiv">
         <h1 className="text-[35px] sm:text-[48px] font-[700] leading-[45px]">
           Behind the Lens:Our Process
