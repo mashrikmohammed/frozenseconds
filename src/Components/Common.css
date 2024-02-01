@@ -33,25 +33,25 @@
 }
 
 .pic1 {
-    background-image: url('./assets/sept-commercial-Cqu3DdNwtKQ-unsplash\ 2.png');
+    background-image: url('./assets/im2.jpg');
     background-position: center;
     background-size: cover;
 }
 
 .pic2 {
-    background-image: url('./assets/pexels-spora-weddings-13022320\ 2.png');
+    background-image: url('./assets/im4.jpg');
     background-position: center;
     background-size: cover;
 }
 
 .pic3 {
-    background-image: url('./assets/pexels-trung-nguyen-9517379\ 2.png');
+    background-image: url('./assets/im1.jpg');
     background-position: center;
     background-size: cover;
 }
 
 .pic4 {
-    background-image: url('./assets/pexels-spora-weddings-13148410\ 2.png');
+    background-image: url('./assets/im3.jpg');
     background-position: center;
     background-size: cover;
 }
@@ -104,11 +104,6 @@
     box-shadow: rgba(0, 0, 0, 0.25) inset;
 }
 
-.kmdiv {
-    background-image: url('./assets/inverted-commas\ 1.png');
-    background-repeat: no-repeat;
-    background-position: 35px 4px;
-}
 
 .form {
     background-color: #F5F5F5;
@@ -147,7 +142,7 @@
         "img1 img4 img7"
         "img2 img4 img7"
         "img2 img4 img7"
-        "img2 img5 img7"
+        "img2 img5 img8"
         "img2 img5 img8"
         "img2 img5 img8"
         "img2 img5 img8"
@@ -159,7 +154,7 @@
 
 .container .img1 {
     grid-area: img1;
-    background-image: url(assets/SAM09837.JPG);
+    background-image: url(assets/SAM09837-min.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -167,7 +162,7 @@
 
 .container .img2 {
     grid-area: img2;
-    background-image: url(assets/SAM00142.JPG);
+    background-image: url(assets/SAM00142-min.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -175,7 +170,7 @@
 
 .container .img3 {
     grid-area: img3;
-    background-image: url(assets/SAM00243.JPG);
+    background-image: url(assets/SAM00243-min.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -183,7 +178,7 @@
 
 .container .img4 {
     grid-area: img4;
-    background-image: url(assets/SAM09418\ \(1\).JPG);
+    background-image: url(assets/SAM09418\ \(1\)-min.jpg);
     background-position:center ;
     background-size: cover;
     background-repeat: no-repeat;
@@ -191,7 +186,7 @@
 
 .container .img5 {
     grid-area: img5;
-    background-image: url(assets/SAM09654.JPG);
+    background-image: url(assets/SAM09654-min.jpg);
     background-position: center ;
     background-size: cover;
     background-repeat: no-repeat;
@@ -199,7 +194,7 @@
 
 .container .img6 {
     grid-area: img6;
-    background-image: url(assets/SAM09179.JPG);
+    background-image: url(assets/SAM09179-min.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -207,7 +202,7 @@
 
 .container .img7 {
     grid-area: img7;
-    background-image: url(assets/SAM09557\ \(1\).JPG);
+    background-image: url(assets/SAM09557\ \(1\)-min.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -215,7 +210,7 @@
 
 .container .img8 {
     grid-area: img8;
-    background-image: url(assets/SAM09114.JPG);
+    background-image: url(assets/SAM00062-min.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -283,18 +278,48 @@
         grid-template-rows: 10% 10% 10% 10%;
         grid-template-areas: "img1 img3 "
         "img1 img3 "
+        "img2 img3 "
         "img2 img4 "
         "img2 img4 "
-        "img2 img5 "
+        "img6 img4 "
+        "img6 img4 "
+        "img6 img4 "
+        "img6 img4 "
+        "img6 img4 "
+        "img6 img4 "
+        "img6 img4 "
+        "img6 img4 "
         "img6 img5 "
         "img6 img5 "
         "img6 img5 "
         "img6 img5 "
         "img7 img5 "
+        "img7 img5 "
+        "img7 img5 "
+        "img7 img5 "
+        "img7 img5 "
+        "img7 img5 "
+        "img7 img5 "
+        "img7 img5 "
+        "img7 img5 "
         "img7 img8 "
         "img7 img8 "
         "img7 img8 "
         "img7 img8 "
+        "img7 img8 "
+        "img7 img8 "
+        "img7 img8 "
+        "img7 img8 "
+        "img7 img8 "
+        "img7 img8 "
+        "img7 img8 "
+        "img7 img8 "
+        "img7 img8 "
+        "img7 img8 "
+        "img7 img8 "
+        "img7 img8 "
+
+
         ;
         
     }
