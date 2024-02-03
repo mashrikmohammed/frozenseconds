@@ -5,10 +5,10 @@ function Footer() {
     <div className="footer items-center text-center py-[40px] justify-center">
       <div>
         {" "}
-        <p className="tracking-[2px] sm:tracking-[5px] text-gray-300 text-[16px] sm:text-[20px] font-semibold">
-          FROZEN SECONDS
+        <p style={{fontFamily:'VilakaModernSerif'}}  className="tracking-[2px] sm:tracking-[5px] text-gray-300 text-[16px] sm:text-[20px] font-semibold">
+        Praanatantra
         </p>{" "}
-        <p className="text-[9px] sm:text-[12px] tracking-[2px] text-gray-300 -mt-[3px]">
+        <p style={{fontFamily:'VilakaModernSerif'}}  className="text-[9px] sm:text-[12px] tracking-[2px] text-gray-300 -mt-[3px]">
           THE WEDDING COMPANY
         </p>{" "}
       </div>
@@ -19,7 +19,7 @@ function Footer() {
       </div>
 
       <p className="text-[12px] text-gray-300 mt-[50px]">
-        © Frozen seconds all copyrights reserved
+        © Praanatantra all copyrights reserved
       </p>
     </div>
   );

@@ -30,10 +30,10 @@ const Navbar = () => {
         {" "}
         <a href="/">
           {" "}
-          <p className="tracking-[2px] sm:tracking-[5px]  text-[16px] sm:text-[20px] font-semibold">
-            FROZEN SECONDS
+          <p  style={{fontFamily:'VilakaModernSerif'}} className="tracking-[2px] sm:tracking-[5px]  text-[20px] sm:text-[30px] font-semibold">
+          Praanatantra
           </p>{" "}
-          <p className="text-[9px] sm:text-[12px] tracking-[2px] text-gray-300 -mt-[3px]">
+          <p style={{fontFamily:'VilakaModernSerif'}} className="text-[9px] sm:text-[12px] tracking-[2px] text-gray-300 -mt-[3px]">
             THE WEDDING COMPANY
           </p>{" "}
         </a>
@@ -103,8 +103,8 @@ const Navbar = () => {
       >
         <div className="flex justify-between p-[20px]">
           <div>
-            <p>FROZEN SECONDS</p>{" "}
-            <p className="text-[10px] -mb-[40px] -mt-[3px]">
+            <p style={{fontFamily:'VilakaModernSerif'}} className="text-20 sm:text-30" >Praanatantra</p>{" "}
+            <p style={{fontFamily:'VilakaModernSerif'}}  className="text-[10px] -mb-[40px] -mt-[3px]">
               THE WEDDING COMPANY
             </p>
           </div>

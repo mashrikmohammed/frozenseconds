@@ -15,7 +15,7 @@ function SubmitSection() {
           <div className="flex gap-2   items-center mt-[40px]">
             <img className="cursor-pointer"  src={require("./assets/gmail 1.png")} alt="" />{" "}
             <p className=" text-[12px] cursor-pointer sm:text-[14px] font-semibold">
-              frozenseconds@gmail.com
+            Praanatantra@gmail.com
             </p>
           </div>
           <div className="flex mt-[5px] sm:mt-[15px] gap-2 items-center m-auto">
