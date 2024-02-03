@@ -46,7 +46,7 @@
 }
 
 .pic3 {
-    background-image: url('./assets/im1.jpg');
+    background-image: url('./assets/child.jpg');
     background-position: center;
     background-size: cover;
 }
@@ -189,7 +189,8 @@
 
 .container .img5 {
     grid-area: img5;
-    background-image: url(assets/SAM09654-min.jpg);
+    background-image: url(assets/SAM00062-min.jpg);
+
     background-position: center ;
     background-size: cover;
     background-repeat: no-repeat;
@@ -197,7 +198,7 @@
 
 .container .img6 {
     grid-area: img6;
-    background-image: url(assets/SAM09179-min.jpg);
+    background-image: url(assets/angelf.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -205,7 +206,8 @@
 
 .container .img7 {
     grid-area: img7;
-    background-image: url(assets/angelun.jpg);
+    background-image: url(assets/bride.jpg);
+  
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -213,7 +215,7 @@
 
 .container .img8 {
     grid-area: img8;
-    background-image: url(assets/SAM00062-min.jpg);
+    background-image: url(assets/angelun.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
