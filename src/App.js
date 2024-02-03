@@ -9,6 +9,7 @@ import TestimonialSec from "./Components/Testimonial/Testimonial";
 function App() {
   return (
     <div>
+      
       <HeroSection />
       <div className="py-[60px] seconddiv px-[150px]">
         <AboutSection />
