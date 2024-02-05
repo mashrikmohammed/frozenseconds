@@ -12,7 +12,7 @@ const Testimonial = [
     },
     {
       author:'Shahana',
-      avatar:'/assets/testimonials/avatar.jpg',
+      avatar:'/assets/testimonials/Avatar.jpeg',
       prof:'',
       Testimonial:`Its been an year since my sister's wedding and we have to admit that looking at the pictures you had given us makes reliving those 2 memorable days of our lives really special- the moments, the emotions and happiness captured through your lens is indeed a well ‘shot story’! Thank you Sameeh, for the beautiful gift, and we will continue to recommend you and your work to everyone we know.
 
@@ -20,19 +20,19 @@ const Testimonial = [
     },
     {
       author:'jeffie',
-      avatar:'/assets/testimonials/avatar.jpg',
+      avatar:'/assets/testimonials/Avatar.jpeg',
       prof:'',
       Testimonial:`We had frozen ads photography for our daughter's baptism and it was a full day function ,sameeh's team was soo cooperative and patient the whole day.When it came to her birthday we didn't have a second thought and had them capture the day beautifully.Thankyou frozen ads team for your amazing work and the highlights video.`
     },
     {
       author:'angelo',
       prof:'',
-      avatar:'/assets/testimonials/avatar.jpg',
+      avatar:'/assets/testimonials/Avatar.jpeg',
       Testimonial:`I can't say enough good things about Frozen Seconds. They are not only professional and friendly, but also incredibly creative and passionate about their work. They went above and beyond to make our wedding day unforgettable. They captured every smile, every tear and every hug with amazing skill and artistry. The photos they delivered are stunning. They are truly a treasure that we will cherish for the rest of our lives. Frozen Seconds, you are awesome and we are so grateful for your service.`
     },
     {
       author:'Nithya and Lijil',
-      avatar:'/assets/testimonials/avatar.jpg',
+      avatar:'/assets/testimonials/Avatar.jpeg',
       prof:'',
       Testimonial:`Sameeh and his incredible team ‘Frozen seconds ‘captured our special days ,both engagement and wedding,with such creativity and magic.
       Their enthusiasm behind the lens,keen eye for details and perfectly captured candids turned our wedding photos into a visual narrative.Their professionalism and ability to make you and family feel at ease is commendable.Our tale of of love ,laughter and tears perfectly captured and framed.Cant thank you guys enough for that!!`
