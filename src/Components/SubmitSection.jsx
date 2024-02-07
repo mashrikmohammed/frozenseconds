@@ -26,7 +26,7 @@ function SubmitSection() {
   return (
     <div
       id="contact"
-      className="bg-white items-center col md:flex rounded-[15px] px-[10px] sm:px-[20px] justify-around submit py-[50px]"
+      className="bg-white items-center col md:flex mt-[150px] md:mt-[40px] rounded-[15px] px-[10px] sm:px-[20px] justify-around submit py-[50px]"
     >
       <div className="textdiv">
         <h1 className="text-[25px] sm:text-[48px] font-[700] leading-[45px]">
