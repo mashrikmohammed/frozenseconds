@@ -7,9 +7,9 @@
   
 
 .hero-div {
-    background-image: url(assets/forgetable.jpg);
-    box-shadow: 10174px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
-    background-position: top;
+    background-image: url(assets/SAM2.jpg);
+    box-shadow: 10174px 4px 4px 0px rgba(0, 0, 0, 0.55) inset;
+    background-position: center -600px;
 }
 
 .header {
@@ -42,25 +42,25 @@
 }
 
 .pic1 {
-    background-image: url('./assets/im2.jpg');
+    background-image: url('./assets/SAM1.jpg');
     background-position: center;
     background-size: cover;
 }
 
 .pic2 {
-    background-image: url('./assets/im4.jpg');
+    background-image: url('./assets/SAM10.jpg');
     background-position: center;
     background-size: cover;
 }
 
 .pic3 {
-    background-image: url('./assets/child.jpg');
+    background-image: url('./assets/SAM16.jpg');
     background-position: center;
     background-size: cover;
 }
 
 .pic4 {
-    background-image: url('./assets/im3.jpg');
+    background-image: url('./assets/SAM20.jpg');
     background-position: center;
     background-size: cover;
 }
@@ -165,7 +165,7 @@
 
 .container .img1 {
     grid-area: img1;
-    background-image: url(assets/SAM09837-min.jpg);
+    background-image: url(assets/SAM4.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -173,7 +173,7 @@
 
 .container .img2 {
     grid-area: img2;
-    background-image: url(assets/SAM00142-min.jpg);
+    background-image: url(assets/SAM11.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -181,7 +181,7 @@
 
 .container .img3 {
     grid-area: img3;
-    background-image: url(assets/SAM00243-min.jpg);
+    background-image: url(assets/SAM17.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -189,7 +189,7 @@
 
 .container .img4 {
     grid-area: img4;
-    background-image: url(assets/SAM09418\ \(1\)-min.jpg);
+    background-image: url(assets/SAM19.jpg);
     background-position:center ;
     background-size: cover;
     background-repeat: no-repeat;
@@ -197,7 +197,7 @@
 
 .container .img5 {
     grid-area: img5;
-    background-image: url(assets/SAM00062-min.jpg);
+    background-image: url(assets/SAM8.jpg);
 
     background-position: center ;
     background-size: cover;
@@ -206,7 +206,7 @@
 
 .container .img6 {
     grid-area: img6;
-    background-image: url(assets/angelf.jpg);
+    background-image: url(assets/SAM21.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -214,7 +214,7 @@
 
 .container .img7 {
     grid-area: img7;
-    background-image: url(assets/bride.jpg);
+    background-image: url(assets/SAM14.jpg);
   
     background-position: center;
     background-size: cover;
@@ -223,7 +223,7 @@
 
 .container .img8 {
     grid-area: img8;
-    background-image: url(assets/angelun.jpg);
+    background-image: url(assets/SAM5.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -232,6 +232,9 @@
 
 
 @media (max-width:1470px) {
+    .hero-div{
+        background-position: center -300px;
+    }
     .container{
    
         padding-right: 15px;
@@ -307,6 +310,9 @@
 }
 
 @media (max-width:960px) {
+    .hero-div{
+        background-position: center ;
+    }
     .container {
         margin: auto;
         display: grid;
