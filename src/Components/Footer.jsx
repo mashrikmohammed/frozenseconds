@@ -12,12 +12,12 @@ function Footer() {
           >
             Praanatantra
           </p>{" "}
-          <p
+          {/* <p
             style={{ fontFamily: "VilakaModernSerif" }}
             className="text-[9px] sm:text-[12px] tracking-[2px] text-gray-300 -mt-[3px]"
           >
             THE WEDDING COMPANY
-          </p>{" "}
+          </p>{" "} */}
         </div>
       </a>
       <div className="flex justify-center gap-3 mt-[30px]">

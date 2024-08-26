@@ -33,9 +33,6 @@ const Navbar = () => {
           <p  style={{fontFamily:'VilakaModernSerif'}} className="tracking-[2px] sm:tracking-[5px]  text-[20px] sm:text-[30px] font-semibold">
           Praanatantra
           </p>{" "}
-          <p style={{fontFamily:'VilakaModernSerif'}} className="text-[9px] sm:text-[12px] tracking-[2px] text-gray-300 -mt-[3px]">
-            THE WEDDING COMPANY
-          </p>{" "}
         </a>
       </div>
       <ul className="hidden md:flex justify-around w-[500px] text-[16px] cursor-pointer">

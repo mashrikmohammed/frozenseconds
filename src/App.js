@@ -13,8 +13,8 @@ function App() {
       <HeroSection />
       <div className="py-[60px] seconddiv px-[150px]">
         <AboutSection />
-        <ProcessSec />
-        <TestimonialSec />
+        {/* <ProcessSec /> */}
+        {/* <TestimonialSec /> */}
         <PhotoGallery />
         <SubmitSection />
       </div>

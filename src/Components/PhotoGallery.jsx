@@ -5,11 +5,8 @@ function PhotoGallery() {
     <div id="gallery" className="py-[30px] sm:py-[60px] items-center">
       <div className="textdiv">
         <h1 className="text-[35px] sm:text-[48px] font-[700] leading-[45px]">
-          Captured Moments
+         Our Collections
         </h1>
-        <p className=" text-[20px] sm:text-[24px] font-[500] text-gray-600 mt-[10px]">
-          Life Through Our Lens
-        </p>
       </div>
       <div className="container py-[30px]">
         <div className="item img1"></div>
