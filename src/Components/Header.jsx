@@ -56,7 +56,7 @@ const Navbar = () => {
         >
           About
         </Link>
-        <Link
+        {/* <Link
           to="testimonial"
           spy={true}
           smooth={true}
@@ -65,7 +65,7 @@ const Navbar = () => {
           className=" nav-item"
         >
           Testimonial
-        </Link>
+        </Link> */}
         <Link
           to="gallery"
           spy={true}
